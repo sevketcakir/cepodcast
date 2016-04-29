@@ -25,9 +25,13 @@ while True:
 		call(["mplayer", file_name])
 	except:
 		print('mplayer çalıştırılamadı !!!')
-	print('x:Çıkış')
-	c = sys.stdin.read(1)
-	if c == 'x':
-		break
+		print('x:Cikis')
+		sys.stdin.read(1)
+		if c == 'x':
+			break
+	#print('x:Çıkış')
+	#c = sys.stdin.read(1)
+	#if c == 'x':
+	#	break
 
 
