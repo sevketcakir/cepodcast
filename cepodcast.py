@@ -7,6 +7,7 @@ import requests
 import random
 import urllib.request
 import shutil
+import os.path
 
 page=requests.get('http://www.powerfm.com.tr/podcasts/2016/cenk-erdem.html')
 tree=html.fromstring(page.content)
@@ -18,8 +19,9 @@ while True:
 	print(song)
 	#file_name, headers = urllib.request.urlretrieve(song)
 	file_name=song.split('/')[-1]
-	with urllib.request.urlopen(song) as response, open(file_name, 'wb') as out_file:
-		shutil.copyfileobj(response, out_file)
+	if not os.path.isfile(file_name):#Dosya mevcut degilse
+		with urllib.request.urlopen(song) as response, open(file_name, 'wb') as out_file:
+			shutil.copyfileobj(response, out_file)
 	print(file_name)
 	try:
 		call(["mplayer", file_name])
