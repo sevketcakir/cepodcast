@@ -28,7 +28,7 @@ while True:
 	except:
 		print('mplayer çalıştırılamadı !!!')
 		print('x:Cikis')
-		sys.stdin.read(1)
+		c = sys.stdin.read(1)
 		if c == 'x':
 			break
 	#print('x:Çıkış')
