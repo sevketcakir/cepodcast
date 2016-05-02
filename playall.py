@@ -6,7 +6,7 @@ import random
 import sys
 import time
 
-songs = glob.glob('./*.mp3')
+songs = glob.glob('sound/*.mp3')
 print(songs)
 while True:
 	song = random.choice(songs)
