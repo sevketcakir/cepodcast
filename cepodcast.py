@@ -45,10 +45,10 @@ while True:
             hd.write(file_name + '\n')
             hd.close()
             sys.exit()
-        except:
+        except Exception as e:
             print('\nDosya indirmede hata!!')
             hd = open('hatali.txt', "a")
-            hd.write(file_name + '\n')
+            hd.write(file_name +':'+str(e) +'\n')
             hd.close()
 
     print(file_name)

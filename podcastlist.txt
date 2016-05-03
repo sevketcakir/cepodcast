@@ -1,10 +1,10 @@
-# # ile baþlayan satýrlar dikkate alýnmýyor
-http://www.powerfm.com.tr/podcasts/2016/cenk-erdem.html
-http://www.powerfm.com.tr/podcasts/2015/cenk-erdem.html
-http://www.powerfm.com.tr/podcasts/2014/cenk-erdem.html
-http://www.powerfm.com.tr/podcasts/2013/cenk-erdem.html
-http://www.powerfm.com.tr/podcasts/2012/cenk-erdem.html
-http://www.powerfm.com.tr/podcasts/2011/cenk-erdem.html
-#http://www.powerfm.com.tr/podcasts/2016/power-mix.html
-#http://www.powerfm.com.tr/podcasts/2015/power-mix.html
-#http://www.powerfm.com.tr/podcasts/2014/power-mix.html
+# # ile baslayan satirlar dikkate alinmiyor
+#http://www.powerfm.com.tr/podcasts/2016/cenk-erdem.html
+#http://www.powerfm.com.tr/podcasts/2015/cenk-erdem.html
+#http://www.powerfm.com.tr/podcasts/2014/cenk-erdem.html
+#http://www.powerfm.com.tr/podcasts/2013/cenk-erdem.html
+#http://www.powerfm.com.tr/podcasts/2012/cenk-erdem.html
+#http://www.powerfm.com.tr/podcasts/2011/cenk-erdem.html
+http://www.powerfm.com.tr/podcasts/2016/power-mix.html
+http://www.powerfm.com.tr/podcasts/2015/power-mix.html
+http://www.powerfm.com.tr/podcasts/2014/power-mix.html
